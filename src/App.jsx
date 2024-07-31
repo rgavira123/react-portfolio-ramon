@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
@@ -13,6 +14,7 @@ export default function App() {
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
       <div className="container mx-auto px-8">
+      
       <Navbar />
       <Hero />
       <About />
@@ -20,6 +22,7 @@ export default function App() {
       <Experience />
       <Projects />
       <Contact />
+      <Analytics />
       </div>
     </div>
   );
