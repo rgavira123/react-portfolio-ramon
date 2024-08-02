@@ -43,7 +43,7 @@ export const PROJECTS = [
   {
     title: "Los Mapas del Reino",
     image: project1,
-    github: "https://github.com/rgavira123/Los-Mapas-del-Reino",
+    github: "https://github.com/rgavira123/Mapas_del_Reino",
     description:
       "A fully functional board game in a web application, developed using React, JavaScript and Java and Spring Boot for the backend. The game is a roll-and-write game, where players will try to build the best kingdom in the realm.",
     technologies: ["Java", "Spring Boot", "React", "Javascript", "WebSocket"],
